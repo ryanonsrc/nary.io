@@ -1,6 +1,6 @@
 organization := "io.nary"
 
-name := "site"
+name := "nary"
 
 version := "0.0.1-SNAPSHOT"
 
@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
   "org.http4s" % "http4s-argonaut_2.11" % "0.7.0",
   "org.http4s" % "http4s-dsl_2.11" % "0.7.0"
 )
+
+enablePlugins(JavaAppPackaging)
